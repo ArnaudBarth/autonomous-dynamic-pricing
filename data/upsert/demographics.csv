@@ -1,0 +1,6 @@
+﻿age_bracket,median_monthly_gross_chf,concert_participation_ratio_pct,annual_concert_quantity,base_budget_per_concert_chf,budget_volatility_pct,dr_min_budget_chf,dr_max_budget_chf
+13-17,1671.0,55.8,4.1,16.73,0.4,10.04,23.42
+18-24,4456.0,78.9,4.1,16.73,0.4,10.04,23.42
+25-34,5570.0,77.5,4.0,17.14,0.25,12.86,21.43
+35-44,7288.0,76.1,3.8,19.48,0.25,14.61,24.36
+45_plus,7806.0,67.9,3.9,26.48,0.25,19.86,33.1

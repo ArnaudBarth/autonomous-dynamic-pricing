@@ -1,0 +1,43 @@
+# Environnements Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/.cache
+
+# Secrets / configuration locale
+# (.env sans slash -> matche .env dans n'importe quel dossier ; .env.example est suivi)
+.env
+!.env.example
+*.local
+
+# Artéfacts d'entraînement volumineux (garder seulement les modèles retenus)
+models/**/*.zip
+models/**/*.tmp*
+models/**/*.buffer.npz
+models/**/*.weights.h5
+# scratch de reprise d'entraînement (checkpoints ; pas un livrable)
+models/**/.checkpoint_*
+models/**/*.state.json
+runs/
+tensorboard/
+
+# Données ChartMetric (brutes + curées) : conditions d'utilisation de l'API
+# n'autorisant pas la redistribution -> jamais commitées, même dérivées.
+# (data/chartmetric_artists.txt reste suivi : ce n'est qu'une liste de noms
+# d'artistes choisis par le projet, aucune donnée issue de l'API.)
+# Régénérer localement via .env + scripts/fetch_chartmetric.py (cf. README).
+data/raw/chartmetric/
+data/upsert/artists.csv
+
+# Modèles entraînés : dérivés du catalogue d'artistes ci-dessus, donc exclus
+# pour la même raison. Garder ce dossier suivi (cf. models/pricingAgents/README.md).
+models/pricingAgents/*
+!models/pricingAgents/README.md
+
+# OS
+.DS_Store
+Thumbs.db

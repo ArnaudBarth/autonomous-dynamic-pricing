@@ -1,0 +1,8 @@
+# Phase 2 — Deep Reinforcement Learning
+# Installer par-dessus requirements.txt :  pip install -r requirements-drl.txt
+
+-r requirements.txt
+
+# DQN "from scratch" en TensorFlow/Keras
+# (scripts/train_dqn.py, notebook 08, pricing_agent/dqn.py + agent_dqn.py)
+tensorflow==2.21.0

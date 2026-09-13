@@ -1,0 +1,25 @@
+# Artistes à récupérer depuis ChartMetric (un nom par ligne).
+# `python scripts/fetch_chartmetric.py` lit ce fichier.
+# L'API n'est appelée que pour les nouveaux noms (cache CSV dans data/raw/chartmetric/).
+
+# --- roster initial (métal / jazz / classique) ---
+Powerwolf
+Sabaton
+Babymetal
+Electric Callboy
+Ron Carter
+Wynton Marsalis
+Kamasi Washington
+Hans Zimmer
+Joe Hisaishi
+
+# --- élargissement : couvrir toute l'échelle de popularité et plus de genres ---
+Taylor Swift
+The Weeknd
+Dua Lipa
+Central Cee
+Fontaines D.C.
+Phoebe Bridgers
+Sophie Hunger
+Black Sea Dahu
+Annie Taylor

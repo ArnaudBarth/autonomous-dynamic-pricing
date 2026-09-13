@@ -1,0 +1,8 @@
+genre_name,base_conversion_rate_pct,mobility_factor
+Metal,0.15,1.5
+Hip-Hop/Rap,0.05,1.3
+Indie,0.10,1.3
+Pop,0.035,1.0
+Jazz,0.06,1.0
+Classical,0.06,1.0
+Unknown,0.05,1.0
