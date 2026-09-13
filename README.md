@@ -17,7 +17,7 @@ DQN +14 %) sans sacrifier le taux de remplissage — détails dans le rapport.
 ## Structure
 
 - `env/` — simulateur (modèle d'achat, marché, environnement Gymnasium)
-- `pricing_agent/` — agents (prix fixe, Q-table, DQN) + harnais de comparaison
+- `pricing_agent/` — agents (prix fixe, Q-table, DQN) + comparaison appariée
 - `scripts/` — récupération de données, entraînement, comparaison (CLI)
 - `notebooks/` — pipeline de données, entraînement, comparaison, et un
   parcours de démonstration guidé (`demo_1` à `demo_4`)

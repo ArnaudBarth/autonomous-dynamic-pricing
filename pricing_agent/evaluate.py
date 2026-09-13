@@ -1,4 +1,4 @@
-"""Harnais de comparaison des agents de tarification.
+"""Comparaison appariée des agents de tarification.
 
 Chaque agent affronte **la même série de scénarios de randomisation de domaine**
 (mêmes graines) : la comparaison est appariée, donc les écarts de revenu ne sont
