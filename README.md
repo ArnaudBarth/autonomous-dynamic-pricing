@@ -65,3 +65,14 @@ séquence). Détail de chacun dans sa première cellule.
 ⚠️ Après une modification du code de `env/`, toujours **Kernel > Restart**
 avant de relancer un notebook — `%autoreload` ne recharge pas fiablement la
 chaîne de dépendances `refdata → agents → market → gym_wrapper`.
+
+## Copyright — données de l'OFS
+
+Les fichiers suivants de `data/raw/` sont des statistiques publiques de l'**Office fédéral de la statistique (OFS)**:
+
+| Fichier | Statistique OFS |
+|---|---|
+| `px-x-0304010000_205.px` | [Enquête suisse sur la structure des salaires (ESS)](https://www.bfs.admin.ch/bfs/fr/home/statistiques/travail-remuneration/enquetes/ess.html) — salaire médian |
+| `participationDemographics.csv` | [Statistique des pratiques culturelles 2019](https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/pratiques-culturelles.html) — participation aux concerts |
+| `budgetRatioDemographics.csv` | [Enquête sur le budget des ménages 2018–2019](https://www.bfs.admin.ch/news/fr/2019-0623) — dépenses « théâtre et concerts » |
+> Office fédéral de la statistique (OFS).
